@@ -1,6 +1,6 @@
 #!/bin/bash
 
-### Source: https://www.linuxnix.com/shell-scripting-convert-a-string-from-lowercase-to-uppercase/
+### References: https://www.linuxnix.com/shell-scripting-convert-a-string-from-lowercase-to-uppercase/
 
 ### This is where the user will input the desired case format,
 ### and the output will be in the desired string maniplulation:
