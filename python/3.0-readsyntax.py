@@ -4,13 +4,20 @@
 ### User input string (text)
 name = raw_input("Write your text to convert:\n")
 
+if name.isupper()
+  print ("this is a capitalised word")
+else:
+  print("it's not")
+
+
 ### Print input string as option
-option = raw_input("Select upper or lower for case change:\n")
+#option = raw_input("Select upper or lower for case change:\n")
 
 ### If the input option is lower, print lowercase; if input is upper, print uppercase
 
-if option == "lower":
-    print (name.lower())
+#if option == "lower":
+#    print (name.lower())
 
-elif option == "upper":
-    print (name.upper())
+#elif option == "upper":
+#    print (name.upper())
+
