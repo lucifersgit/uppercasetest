@@ -3,14 +3,12 @@
 
 ### User input string (text)
 name = raw_input("Write your text to convert:\n")
-print " "
 
 ### Print input string as option
-option = raw_input("Type 'lower' or 'upper' for corresponding case change:\n")
-print " "
+option = raw_input("Select upper or lower for case change:\n")
 
 ### If the input option is lower, print lowercase; if input is upper, print uppercase
-print "Output:"
+
 if option == "lower":
     print (name.lower())
 
