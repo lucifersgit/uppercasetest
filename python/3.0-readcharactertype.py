@@ -2,9 +2,9 @@
 ###              'https://www.pythonforbeginners.com/basics/getting-user-input-from-the-keyboard'
 
 ### User input string (text)
-name = raw_input("Write your text to convert:\n")
+name = raw_input("Write your text to confirm if it is uppercase or lowercase:\n")
 
-### Determine if string is uppercase, and print corresponding output. If characters are mixed, print error
+### Determine if string is uppercase or lowercase, and print corresponding output:
 
 if name.isupper():
     print "This is an uppercase word"
@@ -12,5 +12,7 @@ if name.isupper():
 elif name.islower():
     print "This is a lowercase word"
 
+### If characters are mixed, print error:
+
 else:
-    print "Invalid type - mixed characters"
+    print "Invalid type - mixed character cases"
